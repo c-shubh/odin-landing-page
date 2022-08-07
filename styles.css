@@ -56,3 +56,39 @@ body {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+/* Hero section */
+
+.section-hero {
+    color: white;
+    background-color: #1f2937;
+    padding: 4em var(--page-margin);
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.hero-text h1 {
+    font-size: 2.4em;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-text p {
+    font-size: 1em;
+    color: #e5e7eb;
+    margin-bottom: 0.5em;
+}
+
+.hero-text .button a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text .button {
+    width: fit-content;
+    font-weight: bold;
+    padding: 0.4em 2em;
+    border-radius: 0.5em;
+    background-color: #3882f6;
+}
