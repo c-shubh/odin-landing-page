@@ -187,3 +187,12 @@ body {
     border: 2px solid white;
     background-color: #3882f6;
 }
+
+/* Footer */
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    padding: 2em 0;
+    text-align: center;
+}
