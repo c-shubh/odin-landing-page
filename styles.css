@@ -153,3 +153,37 @@ body {
     font-size: 1.4em;
 }
 
+/* Call to action section */
+
+.section-cta {
+    margin: 5em var(--page-margin);
+}
+
+.cta-box {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 6em;
+    border-radius: 10px;
+    color: white;
+}
+
+.cta-box span {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta-box .button a {
+    text-decoration: none;
+    color: white;
+}
+
+.cta-box .button {
+    width: fit-content;
+    font-weight: bold;
+    padding: 0.4em 2em;
+    border-radius: 0.5em;
+    border: 2px solid white;
+    background-color: #3882f6;
+}
