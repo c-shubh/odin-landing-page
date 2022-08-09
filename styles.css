@@ -130,3 +130,26 @@ body {
     flex-direction: column;
     color: hsl(0deg 0% 20%);
 }
+
+/* Quote section */
+
+.section-quote {
+    background-color: #e5e7eb;
+    padding: 5em 16em;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.section-quote span {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
